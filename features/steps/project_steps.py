@@ -1,3 +1,5 @@
+import pprint
+
 from behave import given, when, then
 from pip import logger
 
@@ -14,7 +16,12 @@ def step_impl(context):
 @when(u'I get all projects')
 def step_impl(context):
     print(u'STEP: When I get all projects')
-    list_of_projects =context.project.get_all_projects()
+    list_of_projects = context.project.get_all_projects()
+    print("Create Project status code: %s" % list_of_projects.status_code)
+    print("Response:")
+    res_json = list_of_projects.json()
+    pprint.pprint(res_json)
+
     logger.info("List of projects %s" % list_of_projects)
 
 

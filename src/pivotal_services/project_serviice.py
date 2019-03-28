@@ -7,6 +7,9 @@ class ProjectService(BaseService):
         BaseService.__init__(self)
         self.project_url = "/projects"
 
-
     def get_all_projects(self):
         return self.request_handler.get_request(self.project_url)
+
+    def create_project(self, name):
+
+        return self.request_handler.get_post(self.project_url, name)
