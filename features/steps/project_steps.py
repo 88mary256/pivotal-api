@@ -23,3 +23,5 @@ def step_impl(context):
 @then(u'I validate project list is retrieved')
 def step_impl(context):
     logger.info(u'STEP: Then I validate project list is retrieved')
+    project_schema, error_message = context.project.validate_project_schema(context.projects_response.json())
+    assert project_schema, "Failed validating json schema %s" % error_message
