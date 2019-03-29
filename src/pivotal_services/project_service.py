@@ -9,4 +9,4 @@ class ProjectService(BaseService):
 
 
     def get_all_projects(self):
-        return self.request_handler.get_request(self.project_url)
+        return self.request_handler.get_request(self.config.get_base_url() + self.project_url)
