@@ -12,4 +12,4 @@ class ProjectService(BaseService):
 
     def create_project(self, name):
 
-        return self.request_handler.get_post(self.project_url, name)
+        return self.request_handler_post.get_post(self.project_url, name)

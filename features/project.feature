@@ -9,4 +9,4 @@ Feature: Project
 
   Scenario: create Project
     Given I make a connection to pivotal Tracker page
-    When I create a project called: ProjectTest
+    When I create a project called: HolaTest

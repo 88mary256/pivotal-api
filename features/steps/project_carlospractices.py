@@ -10,9 +10,9 @@ def step_impl(context):
     print (u'STEP: Given I make a connection to pivotal')
     context.project = ProjectService()
 
-@when(u'I create a project called: {name}')
+@when("I create a project called: {name}")
 def step_impl(context,name):
-    print (u'STEP: When I create a project called: {name}')
+    print (u"STEP: When I create a project called: {name}")
     new_project = context.project.create_project(name)
     print("Create Project status code: %s" % new_project.status_code)
     print("Response:")
