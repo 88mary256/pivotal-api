@@ -1,7 +1,7 @@
-import logger as logger
+#import logger as logger
 
 from behave import given, when, then
-from pip import logger
+#from pip import logger
 
 from src.pivotal_services.project_service import ProjectService
 
