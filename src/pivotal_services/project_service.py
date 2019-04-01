@@ -13,7 +13,8 @@ class ProjectService(BaseService):
     def get_all_projects(self):
         return self.request_handler.get_request(self.config.get_base_url() + self.project_url)
 
-    def get_project(self, id):
+    def get_project(self, project_id):
+        id = 9999999 if project_id is None else project_id
         return self.request_handler.get_request(self.config.get_base_url() + self.project_url + "/" + id)
 
     def update_project(self, id, name):
