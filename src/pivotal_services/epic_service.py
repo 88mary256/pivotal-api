@@ -1,3 +1,4 @@
+from src.data.epic import Epic
 from src.pivotal_services.base_service import BaseService
 
 
@@ -5,7 +6,7 @@ class EpicService(BaseService):
 
     def __init__(self):
         BaseService.__init__(self)
-        self.base_url = self.config.get_base_url()
+        self.base_url = "https://www.pivotaltracker.com/services/v5"
 
     def get_url(self, url):
         return self.base_url + url
@@ -29,13 +30,13 @@ class EpicService(BaseService):
 
     def create_epic(self, project_id, epic):
         url = self.get_url("/projects/" + project_id + "/epics")
-        if isInstance(epic, Epic):
+        if isinstance(epic, Epic):
             return self.request_handler.post_request(url, epic.getBody())
         return self.request_handler.post_request(url, epic)
 
     def modify_epic(self, project_id, epic_id, epic):
         url = self.get_url("/projects/" + project_id + "/epics/" + epic_id)
-        if isInstance(epic, Epic):
+        if isinstance(epic, Epic):
             return self.request_handler.put_request(url, epic.getBody())
         return self.request_handler.put_request(url, epic)
 

@@ -3,7 +3,7 @@ import yaml
 
 class PropertyReader:
     #TODO: Use relative path
-    def __init__(self, config_path="C:\\Users\\Admin\\Documents\\GIT\\api-testing\\pivotal-api\\config.yml"):
+    def __init__(self, config_path="config.yml"):
         self.config = yaml.safe_load(open(config_path))
 
     def get_base_url(self):
