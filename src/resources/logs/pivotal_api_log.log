@@ -2438,3 +2438,306 @@
 2019-04-01 03:19:38,809 - src.core.utils.logger - INFO - Set up a connection
 2019-04-01 03:19:38,812 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
 2019-04-01 03:19:38,812 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:35,167 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:35,167 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,072 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:08:36,072 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story1', u'url': u'https://www.pivotaltracker.com/story/show/165010347', u'created_at': u'2019-04-01T01:42:27Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:27Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010347, u'owner_ids': []}
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,088 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:08:36,572 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:36,588 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,369 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:08:37,369 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:08:37,369 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:08:37,369 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:08:37,369 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,384 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,869 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:08:37,884 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:14,388 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:14,388 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story1', u'url': u'https://www.pivotaltracker.com/story/show/165010347', u'created_at': u'2019-04-01T01:42:27Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:27Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010347, u'owner_ids': []}
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,341 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,825 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:15,842 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - DELETE Story status code: 400
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - DELETE Story status code: 400
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - DELETE Story status code: 400
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - DELETE Story status code: 400
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - DELETE Story status code: 400
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,309 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,325 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,766 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:09:16,782 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:27:29,226 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:27:29,243 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:27:29,243 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {story_name}
+2019-04-01 11:27:30,086 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:27:30,101 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:27:30,101 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:27:30,101 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:27:30,101 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:34:46,119 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:34:46,119 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:34:46,119 - src.core.utils.logger - INFO - STEP: Given a {story_name} new of new Story
+2019-04-01 11:34:46,917 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:34:46,917 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:34:46,917 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:34:46,917 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:34:46,917 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:35:07,091 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:40:12,484 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:40:12,484 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:40:13,298 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:40:13,344 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:40:13,344 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:40:13,344 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:40:13,344 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:40:13,812 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:40:13,812 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:42:34,141 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:42:34,144 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:42:35,025 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:42:36,183 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:42:36,183 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:42:36,184 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:42:36,184 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:42:36,634 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:42:36,634 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:47:09,595 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:47:09,596 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:47:10,438 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:47:10,438 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'invalid_parameter', u'general_problem': u'this endpoint requires the parameter: name', u'error': u'One or more request parameters was missing or invalid.'}
+2019-04-01 11:47:10,473 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:47:10,473 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:47:10,474 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:47:10,474 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:47:10,982 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:47:10,982 - src.core.utils.logger - INFO - POST Story status code: 400
+2019-04-01 11:47:10,982 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'invalid_parameter', u'general_problem': u'this endpoint requires the parameter: name', u'error': u'One or more request parameters was missing or invalid.'}
+2019-04-01 11:47:10,982 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'invalid_parameter', u'general_problem': u'this endpoint requires the parameter: name', u'error': u'One or more request parameters was missing or invalid.'}
+2019-04-01 11:51:48,657 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:51:48,657 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:51:49,875 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:51:49,891 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new', u'url': u'https://www.pivotaltracker.com/story/show/165027884', u'created_at': u'2019-04-01T15:51:49Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:51:49Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165027884, u'owner_ids': []}
+2019-04-01 11:51:49,891 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:51:49,891 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:51:49,907 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:51:49,907 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:51:50,565 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:51:50,565 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:51:50,565 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test', u'url': u'https://www.pivotaltracker.com/story/show/165027885', u'created_at': u'2019-04-01T15:51:50Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:51:50Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165027885, u'owner_ids': []}
+2019-04-01 11:51:50,565 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test', u'url': u'https://www.pivotaltracker.com/story/show/165027885', u'created_at': u'2019-04-01T15:51:50Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:51:50Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165027885, u'owner_ids': []}
+2019-04-01 11:57:05,244 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:05,336 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,177 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:57:06,178 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story1', u'url': u'https://www.pivotaltracker.com/story/show/165010347', u'created_at': u'2019-04-01T01:42:27Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:27Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010347, u'owner_ids': []}
+2019-04-01 11:57:06,183 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,183 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,190 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,697 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:57:06,697 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:57:06,697 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-01 11:57:06,700 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:57:06,700 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:57:06,700 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'story2', u'url': u'https://www.pivotaltracker.com/story/show/165010348', u'created_at': u'2019-04-01T01:42:38Z', u'labels': [], u'current_state': u'unstarted', u'updated_at': u'2019-04-01T01:42:38Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165010348, u'owner_ids': []}
+2019-04-01 11:57:06,701 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,701 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,701 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,701 - src.core.utils.logger - INFO - Schema Validation Failed with: 
+2019-04-01 11:57:06,710 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,710 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,710 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,710 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,710 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:06,711 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,711 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,711 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,711 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:06,711 - src.core.utils.logger - INFO - STEP: Given a specific story with ID: {story_id} that belongs to a {project_id}
+2019-04-01 11:57:07,467 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:57:07,467 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:57:07,467 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:57:07,467 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:57:07,467 - src.core.utils.logger - INFO - DELETE Story status code: 204
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,474 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:07,476 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,348 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'test_new2', u'url': u'https://www.pivotaltracker.com/story/show/165028075', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028075, u'owner_ids': []}
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,354 - src.core.utils.logger - INFO - Set up a connection
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:08,355 - src.core.utils.logger - INFO - STEP: Given a name story: {story_name} that will belong to a {project_id}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}
+2019-04-01 11:57:09,046 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'again_test2', u'url': u'https://www.pivotaltracker.com/story/show/165028076', u'created_at': u'2019-04-01T15:57:08Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-01T15:57:08Z', u'requested_by_id': 3162842, u'project_id': 2323178, u'id': 165028076, u'owner_ids': []}

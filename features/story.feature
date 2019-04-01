@@ -5,7 +5,7 @@ Feature: Working with Stories on pivotal tracker
 Background: Connection to Pivotal Tracker
     Given Set up a connection
 
- Scenario Outline: Get a specific Story by ID
+Scenario Outline: Get a specific Story by ID
     Given a specific story with ID: <story_id> that belongs to a <project_id>
     When the user asks for the desired story
     Then The desired story is retrieved
@@ -23,16 +23,26 @@ Background: Connection to Pivotal Tracker
 
     Examples:
       | project_id | story_id  |
-      | 2323178    | 165013839|
+      | 2323178    | 165028015 |
+
 
   Scenario Outline: Create a new story
-    Given a  <project_id> of the project
-    And a  <story_name> of new Story
+    Given a <project_id> of the project and <story_name>
     When user makes a post to create the new project and story
-    Then the new project and story is created
+
 
      Examples:
-      | project_id | story_name  |
-      | 2323178    | test new    |
-      | 2323178    | again test  |
+      | project_id | story_name   |
+      | 2323178    | test_new2    |
+      | 2323178    | again_test2  |
+
+  Scenario Outline: Edit a  story
+    Given a <project_id> of the project and <story_id>
+    When user makes a post to create the new project and story
+
+
+     Examples:
+      | project_id | story_name   |
+      | 2323178    | test_new2    |
+      | 2323178    | again_test2  |
 
