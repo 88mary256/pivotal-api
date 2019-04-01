@@ -21,6 +21,9 @@ class StoryService(BaseService):
         return self.request_handler.post_request(
             self.config.get_base_url() + self.story_url + "/" + id_project + "/stories",story_name)
 
+    def put_story(self, story_id, new_name, id_project):
+        return self.request_handler.put_request(
+            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories", story_id,new_name)
 
     def validate_get_story_schema(self, project_response):
 
