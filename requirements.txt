@@ -3,3 +3,4 @@ behave
 logger
 pyyaml
 compare
+jsonschema
