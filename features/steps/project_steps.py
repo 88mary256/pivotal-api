@@ -1,7 +1,7 @@
-import json
-
 from behave import given, when, then, step
 from compare import expect
+
+import logger as logger
 
 from src.core.utils.logger import logger_pivotal
 from src.pivotal_services.project_service import ProjectService
@@ -301,3 +301,8 @@ def step_impl(context):
     else:
         logger.set_error("Non expected status code =  %s" % context.project_response.status_code)
     logger.set_info(u'STEP: validate the project\'s id no longer valid')
+
+    
+@given(u'I delete all projects')
+def step_impl(context):
+    context.project.delete_all_projects()

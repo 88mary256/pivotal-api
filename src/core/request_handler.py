@@ -13,11 +13,10 @@ class RequestHandler:
         return requests.get(url=url, headers=self.header)
 
     def post_request(self, url, name):
-        body = {"name": name}
         return requests.post(url=url, data=json.dumps(body), headers=self.header)
 
-    def put_request(self, url, name):
-        body = {"name": name}
+    def put_request(self, url, body):
+
         return requests.put(url=url, data=json.dumps(body), headers=self.header)
 
     def delete_request(self, url):
