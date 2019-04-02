@@ -9,6 +9,10 @@ class StoryService(BaseService):
         BaseService.__init__(self)
         self.story_url = "/projects"
 
+    def get_all_stories(self, id_project):
+        return self.request_handler.get_request(
+            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories")
+
     def get_story(self, id_story, id_project):
         return self.request_handler.get_request(
             self.config.get_base_url() + self.story_url + "/" + id_project + "/stories/" + id_story)
@@ -21,9 +25,9 @@ class StoryService(BaseService):
         return self.request_handler.post_request(
             self.config.get_base_url() + self.story_url + "/" + id_project + "/stories",story_name)
 
-    def put_story(self, story_id, new_name, id_project):
+    def put_story(self, id_story, id_project, body):
         return self.request_handler.put_request(
-            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories", story_id,new_name)
+            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories/"+id_story, body)
 
     def validate_get_story_schema(self, project_response):
 
