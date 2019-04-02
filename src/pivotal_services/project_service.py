@@ -15,13 +15,13 @@ class ProjectService(BaseService):
         return self.request_handler.get_request(self.config.get_base_url() + self.project_url)
 
     def get_project(self, id):
-        return self.request_handler.get_request(self.config.get_base_url() + self.project_url + "/" + id)
+        return self.request_handler.get_request(self.config.get_base_url() + self.project_url + "/" + str(id))
 
     def update_project(self, id, name):
-        return self.request_handler.put_request(self.config.get_base_url() + self.project_url + "/" + id, name)
+        return self.request_handler.put_request(self.config.get_base_url() + self.project_url + "/" + str(id), name)
 
     def delete_project(self, id):
-        return self.request_handler.delete_request(self.config.get_base_url() + self.project_url + "/" + id)
+        return self.request_handler.delete_request(self.config.get_base_url() + self.project_url + "/" + str(id))
 
     def delete_all_projects(self):
         list_of_projects = self.get_all_projects().json()
