@@ -1,3 +1,5 @@
+import logger as logger
+
 from src.pivotal_services.base_service import BaseService
 
 
@@ -15,7 +17,6 @@ class EpicService(BaseService):
         return self.request_handler.get_request(url)
 
     def get_all_epics_with_filter(self, project_id, filter):
-        # "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/epics?fields=id%2Ccomments"
         url = self.get_url("/projects/" + str(project_id) + "/epics?fields=" + filter)
         return self.request_handler.get_request(url)
 
@@ -30,13 +31,11 @@ class EpicService(BaseService):
     def create_epic(self, project_id, epic):
         url = self.get_url("/projects/" + str(project_id) + "/epics")
         result = self.request_handler.post_request(url, epic)
-        print "---creating epic---" + str(result)
+        logger.debug( "---creating epic---" + str(result))
         return result
 
     def modify_epic(self, project_id, epic_id, epic):
         url = self.get_url("/projects/" + str(project_id) + "/epics/" + str(epic_id))
-        if isinstance(epic, Epic):
-            return self.request_handler.put_request(url, epic.getBody())
         return self.request_handler.put_request(url, epic)
 
     def delete_epic(self, project_id, epic_id):
