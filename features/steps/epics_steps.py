@@ -16,7 +16,7 @@ def create_default_data(context):
     body = {"name": project_name}
     response = project_service.new_project(body).json()
     context.project_id = str(response["id"])
-    epic_response = context.service.create_epic(context.project_id, {"name":epic_name}).json()
+    epic_response = context.service.create_epic(context.project_id, {"name": epic_name}).json()
     context.epic_id = epic_response["id"]
 
 
@@ -54,12 +54,12 @@ def step_get_epic(context):
 
 @when('I create epic with name "{name}" in test project')
 def step_create_epic(context, name):
-    context.epic_response = context.service.create_epic(context.project_id, {'name': name })
+    context.epic_response = context.service.create_epic(context.project_id, {'name': name})
 
 
-@when('I modify name of epic with id {epic_id} in project {project_id} to "{name}"')
-def step_modify_epic(context, epic_id, project_id, name):
-    context.epic_response = context.service.modify_epic(project_id, epic_id, "{'name':'" + name + "'}")
+@when('I modify name of test epic in test project to "{name}"')
+def step_modify_epic(context, name):
+    context.epic_response = context.service.modify_epic(context.project_id, context.epic_id, {'name': name})
 
 
 @then("I validate epic result")
