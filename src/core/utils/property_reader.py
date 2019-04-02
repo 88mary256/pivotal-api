@@ -17,5 +17,5 @@ class PropertyReader:
     def get_logger_format(self):
         return self.config["app"]["logger_format"]
 
-    def get_content_tyoe(self):
+    def get_content_type(self):
         return self.config["app"]["content_type"]

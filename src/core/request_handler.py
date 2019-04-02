@@ -1,6 +1,8 @@
 import json
 
 import requests
+import json
+
 
 
 class RequestHandler:
@@ -16,7 +18,6 @@ class RequestHandler:
         return requests.post(url=url, data=json.dumps(body), headers=self.header)
 
     def put_request(self, url, body):
-
         return requests.put(url=url, data=json.dumps(body), headers=self.header)
 
     def delete_request(self, url):
