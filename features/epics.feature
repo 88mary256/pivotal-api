@@ -1,38 +1,17 @@
 Feature: Epics
 
-  Scenario: Get All epics of a project
+  Background: Create default data
     Given I make a connection to epics
-    When I get all epics of project with id 2322921
+    Then Create Project with epic
+
+  Scenario: Get All epics of test project
+    When I get all epics of test project
     Then I validate epic list is retrieved
 
-
-  Scenario: Get all epics with filter
-    Given I make a connection to epics
-    When I get filtered epics of project with id 2322921 and filter {state:unstarted}
-    Then I validate epic list is retrieved
-
-  Scenario: Get 1 epic with id from project
-    Given I make a connection to epics
-    When I get epic with id 4275384 from project 2322921
+  Scenario: Get test epic from test project
+    When I get epic test from project test
     Then I validate epic result
 
-  Scenario: Get 1 epic with id
-    Given I make a connection to epics
-    When I get epic with id 4275384
+  Scenario: Get test epic
+    When I get test epic
     Then I validate epic result
-
-  Scenario: Create epic in project
-    Given I make a connection to epics
-    When I create epic with name "My new epic" in project 2322921
-    Then I validate epic result
-
-  Scenario: Modify epic
-    Given I make a connection to epics
-    When I modify name of epic with id 4275384 in project 2322921 to "Renamed Epic"
-    Then I validate epic result
-
-  Scenario: Delete epic
-    Given I make a connection to epics
-    When I create epic with name "My epic to delete" in project 2322921
-    And Delete created epic
-    Then Validate delete

@@ -2,4 +2,4 @@ app:
  #options in level
  token: "290548f427d7f7d10b461e95036ea3a3"
  base_url: "https://www.pivotaltracker.com/services/v5"
- logger_path: "\\resources\\logs"
+ logger_path: "\\logs"

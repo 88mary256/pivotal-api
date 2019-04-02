@@ -6,7 +6,7 @@ class EpicService(BaseService):
 
     def __init__(self):
         BaseService.__init__(self)
-        self.base_url = "https://www.pivotaltracker.com/services/v5"
+        self.base_url = self.config.get_base_url()
 
     def get_url(self, url):
         return self.base_url + url
@@ -21,25 +21,25 @@ class EpicService(BaseService):
         return self.request_handler.get_request(url)
 
     def get_epic_on_project(self, project_id, epic_id):
-        url = self.get_url("/projects/" + project_id + "/epics/" + epic_id)
+        url = self.get_url("/projects/" + str(project_id) + "/epics/" + str(epic_id))
         return self.request_handler.get_request(url)
 
     def get_epic(self, epic_id):
-        url = self.get_url("/epics/" + epic_id)
+        url = self.get_url("/epics/" + str(epic_id))
         return self.request_handler.get_request(url)
 
     def create_epic(self, project_id, epic):
-        url = self.get_url("/projects/" + project_id + "/epics")
-        if isinstance(epic, Epic):
-            return self.request_handler.post_request(url, epic.getBody())
-        return self.request_handler.post_request(url, epic)
+        url = self.get_url("/projects/" + str(project_id) + "/epics")
+        result = self.request_handler.post_request(url, epic)
+        print "---creating epic---" + str(result)
+        return result
 
     def modify_epic(self, project_id, epic_id, epic):
-        url = self.get_url("/projects/" + project_id + "/epics/" + epic_id)
+        url = self.get_url("/projects/" + str(project_id) + "/epics/" + str(epic_id))
         if isinstance(epic, Epic):
             return self.request_handler.put_request(url, epic.getBody())
         return self.request_handler.put_request(url, epic)
 
     def delete_epic(self, project_id, epic_id):
-        url = self.get_url("/projects/" + project_id + "/epics/" + epic_id)
+        url = self.get_url("/projects/" + str(project_id) + "/epics/" + str(epic_id))
         return self.request_handler.delete_request(url)

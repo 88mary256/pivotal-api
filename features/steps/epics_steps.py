@@ -3,7 +3,22 @@ import pprint
 import compare
 
 from src.pivotal_services.epic_service import EpicService
+from src.pivotal_services.project_service import ProjectService
 from behave import *
+
+project_name = "My test project88 with epic"
+epic_name = "my_epic_test"
+
+
+@step('Create Project with epic')
+def create_default_data(context):
+    project_service = ProjectService()
+    response = project_service.new_project(project_name)
+    # context.project_id = response["id"]
+    context.project_id = 2323732
+    # epic_response = context.service.create_epic(context.project_id, "{'name':'"+epic_name+"'}")
+    # context.epic_id = epic_response["id"]
+    context.epic_id = 4278092
 
 
 @given("I make a connection to epics")
@@ -11,9 +26,9 @@ def step_connection(context):
     context.service = EpicService()
 
 
-@when("I get all epics of project with id {id}")
-def step_get_all_epic_of_project(context, id):
-    context.all_epics_response = context.service.get_all_epics(id)
+@when("I get all epics of test project")
+def step_get_all_epic_of_project(context):
+    context.all_epics_response = context.service.get_all_epics(context.project_id)
 
 
 @when("I get filtered epics of project with id {id} and filter {filter}")
@@ -29,19 +44,19 @@ def step_validate_epics_list(context):
     compare.expect(len(epics)) > 0
 
 
-@when("I get epic with id {epic_id} from project {project_id}")
-def step_get_epic_on_project(context, epic_id, project_id):
-    context.epic_response = context.service.get_epic_on_project(project_id, epic_id)
+@when("I get epic test from project test")
+def step_get_epic_on_project(context):
+    context.epic_response = context.service.get_epic_on_project(context.project_id, context.epic_id)
 
 
-@when("I get epic with id {id}")
-def step_get_epic(context, id):
-    context.epic_response = context.service.get_epic(id)
+@when("I get test epic")
+def step_get_epic(context):
+    context.epic_response = context.service.get_epic(context.epic_id)
 
 
-@when('I create epic with name "{name}" in project {project_id}')
-def step_create_epic(context, name, project_id):
-    context.epic_response = context.service.create_epic(name, project_id)
+@when('I create epic with name "{name}" in test project')
+def step_create_epic(context, name):
+    context.epic_response = context.service.create_epic("{'name':'" + name + "'}", context.project_id)
 
 
 @when('I modify name of epic with id {epic_id} in project {project_id} to "{name}"')
