@@ -1,6 +1,9 @@
 import logger as logger
 
+from src.core.utils.logger import logger_pivotal
 from src.pivotal_services.base_service import BaseService
+
+logger = logger_pivotal()
 
 
 class EpicService(BaseService):
@@ -31,7 +34,6 @@ class EpicService(BaseService):
     def create_epic(self, project_id, epic):
         url = self.get_url("/projects/" + str(project_id) + "/epics")
         result = self.request_handler.post_request(url, epic)
-        logger.debug( "---creating epic---" + str(result))
         return result
 
     def modify_epic(self, project_id, epic_id, epic):

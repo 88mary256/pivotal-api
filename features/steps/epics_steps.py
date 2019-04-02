@@ -12,12 +12,12 @@ epic_name = "my_epic_test"
 @step('Create Project with epic')
 def create_default_data(context):
     project_service = ProjectService()
-    response = project_service.new_project(project_name)
-    # context.project_id = response["id"]
-    context.project_id = 2323732
-    # epic_response = context.service.create_epic(context.project_id, "{'name':'"+epic_name+"'}")
-    # context.epic_id = epic_response["id"]
-    context.epic_id = 4278092
+    project_service.delete_all_projects()
+    body = {"name": project_name}
+    response = project_service.new_project(body).json()
+    context.project_id = str(response["id"])
+    epic_response = context.service.create_epic(context.project_id, {"name":epic_name}).json()
+    context.epic_id = epic_response["id"]
 
 
 @given("I make a connection to epics")

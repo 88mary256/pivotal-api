@@ -9,7 +9,6 @@ class ProjectService(BaseService):
         self.project_url = "/projects"
 
     def new_project(self, name):
-		name = "{'name':'" + name + "'}"
         return self.request_handler.post_request(self.config.get_base_url() + self.project_url, name)
 
     def get_all_projects(self):
