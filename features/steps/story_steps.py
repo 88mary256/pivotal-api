@@ -1,3 +1,5 @@
+import pprint
+
 from behave import *
 
 from src.core.utils.logger import logger_pivotal
@@ -19,7 +21,8 @@ def step_impl(context, project_name):
 
     context.project = ProjectService()
     context.project_name = project_name
-    context.project_response = context.project.new_project(context.project_name)
+    body = {'name': context.project_name}
+    context.project_response = context.project.new_project(body)
     context.logger.set_info("GET Story status code: %s" % context.project_response.status_code)
     res_json = context.project_response.json()
     context.logger.set_info(res_json)
@@ -53,8 +56,9 @@ def step_impl(context, story_name):
 @then(u'The desired story is retrieved')
 def step_impl(context):
     for i in range(len(context.res_json)):
-        # pprint.pprint(res_json[i])
+        pprint.pprint(context.res_json[i])
         if context.res_json[i]["name"] == str(context.story_name):
+            print context.res_json[i]["name"]
             story_id = context.res_json[i]["id"]
             context.story_response2 = context.story.get_story(str(story_id), str(project_id))
             context.logger.set_info("GET Story status code: %s" % context.story_response2.status_code)

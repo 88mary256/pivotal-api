@@ -1,3 +1,6 @@
 /.idea/
+/venv/
 *.pyc
 %allure_result_folder%
+/logs/*.log
+*.log
