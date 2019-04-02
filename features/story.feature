@@ -6,6 +6,7 @@ Background: set up
   Given Set up a connection
 
 Scenario: : Create a project for all the following scenarios
+  Given I delete all projects
   Given I create a project called P46
 
 

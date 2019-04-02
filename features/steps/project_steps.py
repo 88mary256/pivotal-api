@@ -1,19 +1,18 @@
-
 from behave import given, when, then, step
 from compare import expect
 
 import logger as logger
 
-
-
 from src.core.utils.logger import logger_pivotal
 from src.pivotal_services.project_service import ProjectService
+
 
 @given(u'A connection set up')
 def step_connection(context):
     context.logger = logger_pivotal()
     context.project = ProjectService()
     context.logger.set_info(u'STEP: Given A connection set up')
+
 
 @given("a desirable {name} of new project")
 def step_impl(context, name):
@@ -23,7 +22,8 @@ def step_impl(context, name):
     """
     context.name = name
     context.logger.set_info(u'STEP: Given a desirable <name> of new project')
-    #print context.name
+    # print context.name
+
 
 @when("user makes a post to create the new project")
 def step_impl(context):
@@ -244,3 +244,8 @@ def step_impl(context, id):
     :type id: str
     """
     raise NotImplementedError(u'STEP: And validate the project\'s <id> is no longer valid')
+
+
+@given(u'I delete all projects')
+def step_impl(context):
+    context.project.delete_all_projects()

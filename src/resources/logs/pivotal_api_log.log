@@ -4039,3 +4039,168 @@
 2019-04-02 12:00:46,566 - src.core.utils.logger - INFO - DEL Story status code: 204
 2019-04-02 12:00:46,566 - src.core.utils.logger - INFO - DEL Story status code: 204
 2019-04-02 12:00:46,566 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 12:49:50,111 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:50,111 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:50,112 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:50,112 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:50,631 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - POST Story status code: 404
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:51,091 - src.core.utils.logger - INFO - {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+2019-04-02 12:49:51,608 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:51,608 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:51,608 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:51,608 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:51,608 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,086 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:52,542 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,039 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 12:49:53,496 - src.core.utils.logger - INFO - GET ALL Story status code: 404
+2019-04-02 13:04:54,436 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:04:54,440 - src.core.utils.logger - INFO - {u'version': 1, u'velocity_averaged_over': 3, u'updated_at': u'2019-04-02T17:04:54Z', u'iteration_length': 1, u'project_type': u'private', u'enable_tasks': True, u'id': 2323865, u'week_start_day': u'Monday', u'point_scale_is_custom': False, u'atom_enabled': False, u'public': False, u'account_id': 1089160, u'bugs_and_chores_are_estimatable': False, u'automatic_planning': True, u'start_time': u'2019-04-01T07:00:00Z', u'enable_following': True, u'initial_velocity': 10, u'number_of_done_iterations_to_show': 4, u'kind': u'project', u'name': u'P46', u'enable_incoming_emails': True, u'current_iteration_number': 1, u'point_scale': u'0,1,2,3', u'time_zone': {u'olson_name': u'America/Los_Angeles', u'kind': u'time_zone', u'offset': u'-07:00'}, u'has_google_domain': False, u'created_at': u'2019-04-02T17:04:54Z'}
+2019-04-02 13:04:54,440 - src.core.utils.logger - INFO - id of the project: 2323865
+2019-04-02 13:05:32,763 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:32,763 - src.core.utils.logger - INFO - {u'version': 1, u'velocity_averaged_over': 3, u'updated_at': u'2019-04-02T17:05:32Z', u'iteration_length': 1, u'project_type': u'private', u'enable_tasks': True, u'id': 2323866, u'week_start_day': u'Monday', u'point_scale_is_custom': False, u'atom_enabled': False, u'public': False, u'account_id': 1089160, u'bugs_and_chores_are_estimatable': False, u'automatic_planning': True, u'start_time': u'2019-04-01T07:00:00Z', u'enable_following': True, u'initial_velocity': 10, u'number_of_done_iterations_to_show': 4, u'kind': u'project', u'name': u'P46', u'enable_incoming_emails': True, u'current_iteration_number': 1, u'point_scale': u'0,1,2,3', u'time_zone': {u'olson_name': u'America/Los_Angeles', u'kind': u'time_zone', u'offset': u'-07:00'}, u'has_google_domain': False, u'created_at': u'2019-04-02T17:05:32Z'}
+2019-04-02 13:05:32,765 - src.core.utils.logger - INFO - id of the project: 2323866
+2019-04-02 13:05:33,493 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:33,493 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:33,494 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:33,494 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:34,168 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,168 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,168 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,170 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:34,170 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:34,170 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - POST Story status code: 200
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:34,877 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:35,367 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:35,367 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:35,367 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:35,367 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:35,367 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:35,848 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:35,848 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:35,848 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:35,848 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:35,848 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:35,849 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:35,849 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:35,849 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:35,849 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:35,849 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S1', u'url': u'https://www.pivotaltracker.com/story/show/165065874', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:33Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065874, u'owner_ids': []}
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,331 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,812 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:36,815 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S2', u'url': u'https://www.pivotaltracker.com/story/show/165065875', u'created_at': u'2019-04-02T17:05:33Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065875, u'owner_ids': []}
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,286 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,775 - src.core.utils.logger - INFO - GET Story status code: 200
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:37,776 - src.core.utils.logger - INFO - {u'story_type': u'feature', u'kind': u'story', u'name': u'S3', u'url': u'https://www.pivotaltracker.com/story/show/165065877', u'created_at': u'2019-04-02T17:05:34Z', u'labels': [], u'current_state': u'unscheduled', u'updated_at': u'2019-04-02T17:05:34Z', u'requested_by_id': 3162842, u'project_id': 2323866, u'id': 165065877, u'owner_ids': []}
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:38,255 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:39,460 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,203 - src.core.utils.logger - INFO - GET ALL Story status code: 200
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204
+2019-04-02 13:05:40,959 - src.core.utils.logger - INFO - DEL Story status code: 204

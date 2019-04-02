@@ -1,3 +1,4 @@
+from src.core.utils.logger import logger_pivotal
 from src.pivotal_services.base_service import BaseService
 
 
@@ -21,6 +22,11 @@ class ProjectService(BaseService):
 
     def delete_project(self, id):
         return self.request_handler.delete_request(self.config.get_base_url() + self.project_url + "/" + id)
+
+    def delete_all_projects(self):
+        list_of_projects = self.get_all_projects().json()
+        for project in list_of_projects:
+            self.delete_project(str(project["id"]))
 
 '''
     def validate_project_schema(self, project_response):

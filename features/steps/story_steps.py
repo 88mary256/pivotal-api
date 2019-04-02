@@ -11,7 +11,7 @@ project_id = ""
 def step_impl(context):
     context.story = StoryService()
     context.logger = logger_pivotal()
-
+    context.project = ProjectService()
 
 @given(u'I create a project called {project_name}')
 def step_impl(context, project_name):
