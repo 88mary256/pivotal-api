@@ -2,3 +2,5 @@ requests
 behave
 logger
 pyyaml
+compare
+jsonschema
