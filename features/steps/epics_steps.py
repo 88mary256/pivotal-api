@@ -69,13 +69,11 @@ def step_validate_epic(context):
     compare.expect(epic) != ""
 
 
-@step("Delete created epic")
+@step("Delete test epic")
 def step_delete_epic(context):
-    project_id = context.epic_response.json()["project_id"]
-    epic_id = context.epic_response.json()["epic_id"]
-    context.epic_delete_response = context.service.modify_epic(project_id, epic_id)
+    context.epic_delete_response = context.service.delete_epic(context.project_id, context.epic_id)
 
 
 @then("Validate delete")
 def step_validate_delete_epic(context):
-    compare.expect(context.epic_response.status_code) == 200
+    compare.expect(context.epic_delete_response.status_code) == 204

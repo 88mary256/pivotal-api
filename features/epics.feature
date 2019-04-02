@@ -25,3 +25,8 @@ Feature: Epics
     Given I make a connection to epics
     When I modify name of test epic in test project to "Renamed Epic"
     Then I validate epic result
+
+  Scenario: Delete epic
+    Given I make a connection to epics
+    And Delete test epic
+    Then Validate delete
