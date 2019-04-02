@@ -54,7 +54,7 @@ def step_get_epic(context):
 
 @when('I create epic with name "{name}" in test project')
 def step_create_epic(context, name):
-    context.epic_response = context.service.create_epic("{'name':'" + name + "'}", context.project_id)
+    context.epic_response = context.service.create_epic(context.project_id, {'name': name })
 
 
 @when('I modify name of epic with id {epic_id} in project {project_id} to "{name}"')

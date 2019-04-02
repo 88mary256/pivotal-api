@@ -15,3 +15,8 @@ Feature: Epics
   Scenario: Get test epic
     When I get test epic
     Then I validate epic result
+
+  Scenario: Create epic in project
+    Given I make a connection to epics
+    When I create epic with name "My new epic" in test project
+    Then I validate epic result
