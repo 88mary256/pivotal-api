@@ -2,7 +2,6 @@ import yaml
 
 
 class PropertyReader:
-    #TODO: Use relative path
     def __init__(self, config_path="config.yml"):
         self.config = yaml.safe_load(open(config_path))
 
@@ -14,3 +13,9 @@ class PropertyReader:
 
     def get_logger_path(self):
         return self.config["app"]["logger_path"]
+
+    def get_logger_format(self):
+        return self.config["app"]["logger_format"]
+
+    def get_content_type(self):
+        return self.config["app"]["content_type"]
