@@ -1,4 +1,3 @@
-from src.data.epic import Epic
 from src.pivotal_services.base_service import BaseService
 
 
