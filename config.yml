@@ -1,7 +1,7 @@
 app:
  #options in level
- token: "4b9cc0db37214309c0937d6e459a3f6d"
+ token: "1b835dae1ee0de38bc053a0268979da8"
  base_url: "https://www.pivotaltracker.com/services/v5"
- logger_path: "src/resources/logs/pivotal_api_log.log"
+ logger_path: "logs\\pivotal_api_log.log"
  logger_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
  content_type: "application/json"

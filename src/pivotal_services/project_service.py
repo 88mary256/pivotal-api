@@ -14,11 +14,11 @@ class ProjectService(BaseService):
         return self.request_handler.get_request(self.config.get_base_url() + self.project_url)
 
     def get_project(self, project_id):
-        id = 9999999 if project_id is None else project_id
-        return self.request_handler.get_request(self.config.get_base_url() + self.project_url + "/" + id)
+        id = "" if project_id is None else project_id
+        return self.request_handler.get_request(self.config.get_base_url() + self.project_url + "/" + str(id))
 
     def update_project(self, id, name):
-        return self.request_handler.put_request(self.config.get_base_url() + self.project_url + "/" + id, name)
+        return self.request_handler.put_request(self.config.get_base_url() + self.project_url + "/" + str(id), name)
 
     def delete_project(self, id):
-        return self.request_handler.delete_request(self.config.get_base_url() + self.project_url + "/" + id)
+        return self.request_handler.delete_request(self.config.get_base_url() + self.project_url + "/" + str(id))
