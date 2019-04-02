@@ -1,5 +1,4 @@
 from behave import given, when, then, step
-from compare import expect
 
 import logger as logger
 
@@ -30,11 +29,7 @@ def step_impl(context):
     """
     :type context: iterate to deleta all projects.
     """
-    context.projects_response = context.project.get_all_projects()
-    context.list_of_projects = context.projects_response.json()
-    for item in context.list_of_projects:
-        context.project_response = context.project.delete_project(item["id"])
-
+    context.project.delete_all_projects()
     logger.set_info(u'STEP: When a delete all project request')
 
 
@@ -61,7 +56,8 @@ def step_impl(context):
     """
     :type context: post execution.
     """
-    context.projects_response = context.project.new_project(context.name)
+    body = {"name": context.name}
+    context.projects_response = context.project.new_project(body)
     logger.set_info(u'STEP: When user makes a post to create the new project')
 
 

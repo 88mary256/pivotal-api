@@ -23,11 +23,11 @@ class StoryService(BaseService):
 
     def post_story(self, story_name, id_project):
         return self.request_handler.post_request(
-            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories",story_name)
+            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories", story_name)
 
     def put_story(self, id_story, id_project, body):
         return self.request_handler.put_request(
-            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories/"+id_story, body)
+            self.config.get_base_url() + self.story_url + "/" + id_project + "/stories/" + id_story, body)
 
     def validate_get_story_schema(self, project_response):
 
@@ -42,7 +42,6 @@ class StoryService(BaseService):
             logger = logger_pivotal()
             logger.set_info("Schema Validation Failed with: %s" % e.message)
             return False, e.message
-
 
 # inst = {
 #     "created_at": "2019-03-26T12:00:00Z",
