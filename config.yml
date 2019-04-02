@@ -1,6 +1,6 @@
 app:
  #options in level
- token: $token
+ token: "$token"
  base_url: "https://www.pivotaltracker.com/services/v5"
  logger_path: "src/resources/logs/pivotal_api_log.log"
  logger_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
