@@ -3294,3 +3294,64 @@
 2019-04-01 15:02:48,630 - src.core.utils.logger - INFO - STEP: Given A connection set up
 2019-04-01 15:02:48,630 - src.core.utils.logger - INFO - STEP: Given A connection set up
 2019-04-01 15:02:48,630 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:31,660 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:31,661 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:32,522 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:32,529 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:32,532 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:33,019 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:33,026 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:33,029 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:33,506 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:33,516 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:33,519 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:33,996 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:34,005 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:34,006 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:34,499 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:34,507 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:34,509 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:34,990 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:34,997 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:35,000 - src.core.utils.logger - INFO - STEP: Given a desirable <name> of new project
+2019-04-01 19:10:35,496 - src.core.utils.logger - INFO - STEP: When user makes a post to create the new project
+2019-04-01 19:10:35,503 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:35,505 - src.core.utils.logger - INFO - STEP: Given newly projects created
+2019-04-01 19:10:36,118 - src.core.utils.logger - INFO - STEP: When a user wants to get all projects
+2019-04-01 19:10:36,119 - src.core.utils.logger - ERROR - Status code other than 200
+2019-04-01 19:10:36,121 - src.core.utils.logger - INFO - STEP: Then a list of all projects is retrieved
+2019-04-01 19:10:36,131 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,132 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,144 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,147 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,157 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,158 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,167 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,168 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,180 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,183 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,197 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,200 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,209 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,211 - src.core.utils.logger - INFO - STEP: Given a specific project named as <name>
+2019-04-01 19:10:36,224 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,234 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,243 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,255 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,263 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,275 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,286 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,308 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,319 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,329 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,342 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,358 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,371 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,384 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,404 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,414 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,424 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,440 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,450 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,459 - src.core.utils.logger - INFO - STEP: Given A connection set up
+2019-04-01 19:10:36,470 - src.core.utils.logger - INFO - STEP: Given A connection set up
