@@ -98,7 +98,7 @@ def step_impl(context):
 #
 #             context.story_response2 = context.story.put_story(str(story_id), str(project_id), body)
 #             context.logger.set_info("PUT Story status code: %s" % context.story_response2.status_code)
-# 
+#
 # #@then(u'Modify according to the next parameters')
 # #def step_impl(context):
 
