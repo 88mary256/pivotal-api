@@ -1,4 +1,3 @@
-import logger as logger
 import json
 import compare
 
@@ -40,7 +39,6 @@ def step_get_all_epic_of_project_with_filter(context, id, filter):
 def step_validate_epics_list(context):
     compare.expect(context.all_epics_response.status_code) == 200
     epics = context.all_epics_response.json()
-    logger.debug(epics)
     compare.expect(len(epics)) > 0
 
 
@@ -68,7 +66,6 @@ def step_modify_epic(context, epic_id, project_id, name):
 def step_validate_epic(context):
     compare.expect(context.epic_response.status_code) == 200
     epic = context.epic_response.json()
-    logger.debug(epic)
     compare.expect(epic) != ""
 
 
@@ -81,5 +78,4 @@ def step_delete_epic(context):
 
 @then("Validate delete")
 def step_validate_delete_epic(context):
-    logger.debug(context.epic_delete_response.json())
     compare.expect(context.epic_response.status_code) == 200
